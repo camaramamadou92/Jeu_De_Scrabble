@@ -1,0 +1,35 @@
+.board {
+    display: flex;
+    flex-wrap: wrap;
+    width: 600px;
+    height: 600px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+  }
+  
+  .square {
+    position: relative;
+    width: calc(100% / 15);
+    height: calc(100% / 15);
+    border: 1px solid #ccc;
+  }
+  
+  .letter {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .value {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    font-size: 12px;
+    font-weight: bold;
+  }
+  
+  .double-letter {
+    background-color: #add8e6;
+  }
+  
